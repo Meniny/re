@@ -29,6 +29,10 @@
 		64DA5B3520946C4200C5BB3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64DA5B3720946C4200C5BB3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64DA5B3D20946CE300C5BB3A /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		64DA5B4B2094810600C5BB3A /* README.adoc */ = {isa = PBXFileReference; lastKnownFileType = text; name = README.adoc; path = ../README.adoc; sourceTree = "<group>"; };
+		64DA5B4C2094810600C5BB3A /* re.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = re.podspec; path = ../re.podspec; sourceTree = "<group>"; };
+		64DA5B4D2094810600C5BB3A /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = LICENSE.md; path = ../LICENSE.md; sourceTree = "<group>"; };
+		64DA5B4E2094810600C5BB3A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
 		73E52C104825A8861B2A5EEB /* Pods-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sample/Pods-Sample.release.xcconfig"; sourceTree = "<group>"; };
 		AC1A8F50BA1E8A6E6DA38BC3 /* Pods_AllPods_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AllPods_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4425DC053BD50BBCC779DC2 /* Pods_AllPods_Console.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AllPods_Console.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +64,10 @@
 		64DA5B1F20946C4100C5BB3A = {
 			isa = PBXGroup;
 			children = (
+				64DA5B4E2094810600C5BB3A /* .gitignore */,
+				64DA5B4D2094810600C5BB3A /* LICENSE.md */,
+				64DA5B4C2094810600C5BB3A /* re.podspec */,
+				64DA5B4B2094810600C5BB3A /* README.adoc */,
 				64DA5B3D20946CE300C5BB3A /* Test.swift */,
 				64DA5B2A20946C4100C5BB3A /* Sample */,
 				64DA5B2920946C4100C5BB3A /* Products */,

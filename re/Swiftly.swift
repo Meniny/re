@@ -31,6 +31,14 @@ public extension RegularExpression {
     public func matches(in string: String) -> [String] {
         return self.regex.findall(string)
     }
+    
+    public func firstMatch(in string: String) -> String? {
+        return self.matches(in: string).first
+    }
+    
+    public func lastMatch(in string: String) -> String? {
+        return self.matches(in: string).last
+    }
 }
 
 public extension RegularExpression {
@@ -54,11 +62,22 @@ public extension RegularExpression {
 }
 
 public extension RegularExpression {
-//    public func replace(with replacement: String, in string: String, count: Int = 0) -> String {
-//        return self.regex.sub(replacement, string, count)
-//    }
-    
     public func replace(with replacement: String, in string: String, count: Int = 0) -> (string: String, times: Int) {
         return self.regex.subn(replacement, string, count)
     }
 }
+
+public extension RegularExpression {
+    public func ranges(in string: String) -> [Range<String.Index>?] {
+        return self.regex.finditer(string).map({ $0.span() })
+    }
+    
+    public func firstRange(in string: String) -> Range<String.Index>? {
+        return self.ranges(in: string).first ?? nil
+    }
+    
+    public func lastRange(in string: String) -> Range<String.Index>? {
+        return self.ranges(in: string).last ?? nil
+    }
+}
+
