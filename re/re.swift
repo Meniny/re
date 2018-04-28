@@ -137,7 +137,7 @@ public struct re {
 }
 
 public extension re {
-    public func ranges(_ pattern: String, _ string: String, flags: RegexObject.Flag = [], pos: Int = 0, endpos: Int? = nil) -> [Range<String.Index>?] {
+    public static func ranges(_ pattern: String, _ string: String, flags: RegexObject.Flag = [], pos: Int = 0, endpos: Int? = nil) -> [Range<String.Index>?] {
         return re.compile(pattern, flags: flags).finditer(string, pos, endpos).map({ $0.span() })
     }
 }

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = "re"
-    s.version          = "1.0.1"
+    s.version          = "1.0.2"
     s.summary          = "Pythonic RegEx library."
     s.homepage         = "https://meniny.cn/"
     s.social_media_url = 'https://meniny.cn/'
