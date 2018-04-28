@@ -16,7 +16,7 @@ image:https://img.shields.io/badge/swift%20package%20manager-compatible-brightgr
 
 **re**, a tiny Pythonic RegEx library.
 
-Learn more about link:https://docs.python.org/2/library/re.html[re module in Python 2.x]
+Learn more about link:https://docs.python.org/2/library/re.html[re module in Python 2.x].
 
 === 📋 Requirements
 
@@ -28,7 +28,7 @@ Learn more about link:https://docs.python.org/2/library/re.html[re module in Pyt
 
 === 📲 Installation
 
-`re` is available on link:https://cocoapods.org[CocoaPods]
+`re` is available on link:https://cocoapods.org[CocoaPods].
 
 [source, ruby]
 ----
@@ -48,9 +48,15 @@ You are welcome to fork and submit pull requests.
 
 [source, swift]
 ----
+import re
+
 let string: String = ...
 let pattern: String = ...
+----
 
+[source, swift]
+----
+// Swiftly
 let regex = RegularExpression.of(pattern)
 
 let matches = regex.matches(in: string)
@@ -59,4 +65,16 @@ let groups2 = regex.groups(matches: string, at: 1)
 let groups3 = regex.groups(matches: string, at: [1, 2])
 let split = regex.split(string)
 let replace = regex.replace(with: "BEING_REPLACED", in: string)
+----
+
+[source, swift]
+----
+// Pythonic
+let _ = re.compile(pattern, flags: [])
+
+let _ = re.search(pattern, string)
+let _ = re.match(pattern, string)
+let _ = re.split(pattern, string)
+let _ = re.sub(pattern, string)
+// ...
 ----
