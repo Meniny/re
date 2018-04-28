@@ -1,0 +1,59 @@
+= Meet `re`
+
+image:https://img.shields.io/badge/version-1.0.0-brightgreen.svg[Version]
+image:https://img.shields.io/badge/author-Meniny-blue.svg[Author]
+image:https://img.shields.io/badge/build-passing-brightgreen.svg[Build Passing]
+image:https://img.shields.io/badge/swift-4.1%2B-orange.svg[Swift]
+
+image:https://img.shields.io/badge/platform-macOS%20%7C%20iOS%20%7C%20tvOS%20%7C%20watchOS-lightgrey.svg[Platforms]
+image:https://img.shields.io/badge/license-MIT-blue.svg[MIT]
+
+image:https://img.shields.io/badge/cocoapods-compatible-brightgreen.svg[Cocoapods]
+image:https://img.shields.io/badge/carthage-working%20on-red.svg[Carthage]
+image:https://img.shields.io/badge/swift%20package%20manager-compatible-brightgreen.svg[SPM]
+
+=== 🏵 Introduction
+
+**re**, a tiny Pythonic RegEx library.
+
+Learn more about [`re` in Python 2.x](https://docs.python.org/2/library/re.html)
+
+=== 📋 Requirements
+
+- iOS 8.0+
+- macOS 10.9+
+- tvOS 9.0+
+- watchOS 2.0+
+- Xcode 9.0+ with Swift 4.1+
+
+=== 📲 Installation
+
+`re` is available on [CocoaPods](https://cocoapods.org):
+
+[source, ruby]
+----
+use_frameworks!
+pod 're'
+----
+
+.Podfile
+[source, ruby]
+----
+include::Sample/Podfile[lines=2..10000]
+----
+
+=== ❤️ Contribution
+
+You are welcome to fork and submit pull requests.
+
+=== 🔖 License
+
+`re` is open-sourced software, licensed under the `MIT` license.
+
+=== 🔫 Usage
+
+.Test.swift
+[source, swift]
+----
+include::Sample/Test.swift[lines=10..10000]
+----
