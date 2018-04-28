@@ -16,7 +16,7 @@ image:https://img.shields.io/badge/swift%20package%20manager-compatible-brightgr
 
 **re**, a tiny Pythonic RegEx library.
 
-Learn more about [`re` in Python 2.x](https://docs.python.org/2/library/re.html)
+Learn more about link:https://docs.python.org/2/library/re.html[re module in Python 2.x]
 
 === 📋 Requirements
 
@@ -28,7 +28,7 @@ Learn more about [`re` in Python 2.x](https://docs.python.org/2/library/re.html)
 
 === 📲 Installation
 
-`re` is available on [CocoaPods](https://cocoapods.org):
+`re` is available on link:https://cocoapods.org[CocoaPods]
 
 [source, ruby]
 ----
@@ -46,7 +46,6 @@ You are welcome to fork and submit pull requests.
 
 === 🔫 Usage
 
-.Test.swift
 [source, swift]
 ----
 let string: String = ...
