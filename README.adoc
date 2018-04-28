@@ -36,12 +36,6 @@ use_frameworks!
 pod 're'
 ----
 
-.Podfile
-[source, ruby]
-----
-include::./Sample/Podfile[lines=2..10000]
-----
-
 === ❤️ Contribution
 
 You are welcome to fork and submit pull requests.
@@ -55,5 +49,15 @@ You are welcome to fork and submit pull requests.
 .Test.swift
 [source, swift]
 ----
-include::./Sample/Test.swift[lines=10..10000]
+let string: String = ...
+let pattern: String = ...
+
+let regex = RegularExpression.of(pattern)
+
+let matches = regex.matches(in: string)
+let groups1 = regex.groups(matches: string)
+let groups2 = regex.groups(matches: string, at: 1)
+let groups3 = regex.groups(matches: string, at: [1, 2])
+let split = regex.split(string)
+let replace = regex.replace(with: "BEING_REPLACED", in: string)
 ----
