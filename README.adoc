@@ -39,7 +39,7 @@ pod 're'
 .Podfile
 [source, ruby]
 ----
-include::Sample/Podfile[lines=2..10000]
+include::./Sample/Podfile[lines=2..10000]
 ----
 
 === ❤️ Contribution
@@ -55,5 +55,5 @@ You are welcome to fork and submit pull requests.
 .Test.swift
 [source, swift]
 ----
-include::Sample/Test.swift[lines=10..10000]
+include::./Sample/Test.swift[lines=10..10000]
 ----
