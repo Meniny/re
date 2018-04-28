@@ -1,24 +1,31 @@
 = Meet `re`
 
-image:https://img.shields.io/badge/version-1.0.2-brightgreen.svg[Version]
-image:https://img.shields.io/badge/author-Meniny-blue.svg[Author]
-image:https://img.shields.io/badge/build-passing-brightgreen.svg[Build Passing]
-image:https://img.shields.io/badge/swift-4.1%2B-orange.svg[Swift]
+++++
+<p align="center">
+  <!-- <img src="./Assets/re.png" alt="re"> -->
+  <br/><a href="https://cocoapods.org/pods/re">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-brightgreen.svg">
+  <img alt="Author" src="https://img.shields.io/badge/author-Meniny-blue.svg">
+  <img alt="Build Passing" src="https://img.shields.io/badge/build-passing-brightgreen.svg">
+  <img alt="Swift" src="https://img.shields.io/badge/swift-4.1%2B-orange.svg">
+  <br/>
+  <img alt="Platforms" src="https://img.shields.io/badge/platform-macOS%20%7C%20iOS%20%7C%20tvOS%20%7C%20watchOS-lightgrey.svg">
+  <img alt="MIT" src="https://img.shields.io/badge/license-MIT-blue.svg">
+  <br/>
+  <img alt="Cocoapods" src="https://img.shields.io/badge/cocoapods-compatible-brightgreen.svg">
+  <img alt="Carthage" src="https://img.shields.io/badge/carthage-working%20on-red.svg">
+  <img alt="SPM" src="https://img.shields.io/badge/swift%20package%20manager-compatible-brightgreen.svg">
+  </a>
+</p>
+++++
 
-image:https://img.shields.io/badge/platform-macOS%20%7C%20iOS%20%7C%20tvOS%20%7C%20watchOS-lightgrey.svg[Platforms]
-image:https://img.shields.io/badge/license-MIT-blue.svg[MIT]
-
-image:https://img.shields.io/badge/cocoapods-compatible-brightgreen.svg[Cocoapods]
-image:https://img.shields.io/badge/carthage-working%20on-red.svg[Carthage]
-image:https://img.shields.io/badge/swift%20package%20manager-compatible-brightgreen.svg[SPM]
-
-=== 🏵 Introduction
+== 🏵 Introduction
 
 **re**, a tiny Pythonic RegEx library.
 
 Learn more about link:https://docs.python.org/2/library/re.html[re module in Python 2.x].
 
-=== 📋 Requirements
+== 📋 Requirements
 
 - iOS 8.0+
 - macOS 10.9+
@@ -26,7 +33,7 @@ Learn more about link:https://docs.python.org/2/library/re.html[re module in Pyt
 - watchOS 2.0+
 - Xcode 9.0+ with Swift 4.1+
 
-=== 📲 Installation
+== 📲 Installation
 
 `re` is available on link:https://cocoapods.org[CocoaPods].
 
@@ -36,15 +43,15 @@ use_frameworks!
 pod 're'
 ----
 
-=== ❤️ Contribution
+== ❤️ Contribution
 
 You are welcome to fork and submit pull requests.
 
-=== 🔖 License
+== 🔖 License
 
 `re` is open-sourced software, licensed under the `MIT` license.
 
-=== 🔫 Usage
+== 🔫 Usage
 
 [source, swift]
 ----
