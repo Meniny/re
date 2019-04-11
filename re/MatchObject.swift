@@ -13,7 +13,7 @@ public extension re {
     /**
      *  Counterpart of Python's re.MatchObject
      */
-    public final class MatchObject {
+    final class MatchObject {
         /// String matched
         public let string: String
         

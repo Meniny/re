@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = "re"
-    s.version          = "1.0.2"
+    s.version          = "1.1.0"
     s.summary          = "Pythonic RegEx library."
     s.homepage         = "https://meniny.cn/"
     s.social_media_url = 'https://meniny.cn/'
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.source           = { :git => "https://github.com/Meniny/re.git", :tag => s.version.to_s }
     s.requires_arc     = true
     s.source_files     = 're/**/*.{swift,h}'
-    s.swift_version    = '4.1'
+    s.swift_version    = '5'
 
     s.ios.deployment_target     = "8.0"
     s.osx.deployment_target     = "10.9"

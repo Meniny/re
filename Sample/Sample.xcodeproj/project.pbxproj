@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -30,7 +30,7 @@
 		64DA5B3720946C4200C5BB3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64DA5B3D20946CE300C5BB3A /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		64DA5B4B2094810600C5BB3A /* README.adoc */ = {isa = PBXFileReference; lastKnownFileType = text; name = README.adoc; path = ../README.adoc; sourceTree = "<group>"; };
-		64DA5B4C2094810600C5BB3A /* re.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = re.podspec; path = ../re.podspec; sourceTree = "<group>"; };
+		64DA5B4C2094810600C5BB3A /* re.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = re.podspec; path = ../re.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		64DA5B4D2094810600C5BB3A /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = LICENSE.md; path = ../LICENSE.md; sourceTree = "<group>"; };
 		64DA5B4E2094810600C5BB3A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
 		73E52C104825A8861B2A5EEB /* Pods-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sample/Pods-Sample.release.xcconfig"; sourceTree = "<group>"; };
@@ -141,6 +141,7 @@
 				TargetAttributes = {
 					64DA5B2720946C4100C5BB3A = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -181,17 +182,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-AllPods-Sample/Pods-AllPods-Sample-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/re/re.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AllPods-Sample/Pods-AllPods-Sample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/re.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AllPods-Sample/Pods-AllPods-Sample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AllPods-Sample/Pods-AllPods-Sample-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AllPods-Sample/Pods-AllPods-Sample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B48D9E9335FAC00B8A28EEDE /* [CP] Check Pods Manifest.lock */ = {
@@ -375,7 +375,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.meniny.re.Sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -394,7 +394,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.meniny.re.Sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

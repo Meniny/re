@@ -13,7 +13,7 @@ public extension re {
     /**
      *  Counterpart of Python's re.RegexObject
      */
-    public class RegexObject {
+    class RegexObject {
         /// Typealias for NSRegularExpressionOptions
         public typealias Flag = NSRegularExpression.Options
         
